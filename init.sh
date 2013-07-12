@@ -36,7 +36,7 @@ apt-get install -y iotop mytop dnsmasq redis-server
 cp nginx/nginx.conf /etc/nginx/nginx.conf
 cp nginx/development.conf /etc/nginx/sites-available/development.conf
 cp nginx/tools.conf /etc/nginx/sites-available/tools.conf
-cp php5/demo.conf /etc/php5/pool.d/user.conf
+cp php5/demo.conf /etc/php5/fpm/pool.d/user.conf
 cp mysql/user.cnf /etc/mysql/conf.d/user.cnf
 cp postfix/main.cf /etc/postfix/main.cf
 cp postfix/recipient_canonical_map /etc/postfix/recipient_canonical_map
