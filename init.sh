@@ -27,7 +27,7 @@ apt-get autoremove
 # Install
 apt-get install -y python-software-properties software-properties-common mysql-server
 apt-get install -y make gcc postfix unrar git-core git-flow bash-completion subversion git iotop mytop nginx-full memcached
-apt-get install -y php5-fpm php5-cli php5-suhosin php5-xsl php5-gd php5-curl php5-xmlrpc libmagick-dev imagemagick libmagickwand-dev
+apt-get install -y php5-fpm php5-cli php5-suhosin php5-xsl php5-gd php5-curl php5-xmlrpc php5-imagick imagemagick
 apt-get install -y php5-xcache php5-mysqlnd php-pear php5-mcrypt php5-mhash libmcrypt-dev mcrypt php5-dev php5-memcache php5-xdebug
 apt-get install -y unrar aptitude virtualbox-4.2
 apt-get install -y iotop mytop dnsmasq redis-server
